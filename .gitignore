@@ -1,2 +1,5 @@
-# dependencies
+/public
+
 /node_modules
+
+.cache
