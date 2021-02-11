@@ -15,7 +15,9 @@
         "clean": "gatsby clean"
     },
     "dependencies": {
+        "dotenv": "^8.2.0",
         "gatsby": "^2.32.3",
+        "gatsby-plugin-google-gtag": "^2.8.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
     }
