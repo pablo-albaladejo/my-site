@@ -1,5 +1,5 @@
 import * as React from "react"
-import Profile from '../profile'
+import Profile from '../containers/profile'
 const MainLayout = ({ children }) => {
   return (
     <main>

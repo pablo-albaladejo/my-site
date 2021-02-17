@@ -4,6 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
