@@ -12,5 +12,13 @@ module.exports = {
         trackingIds: [process.env.GA_TRACKING_ID],
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Source Sans Pro']
+        }
+      }
+    }
   ],
 }
