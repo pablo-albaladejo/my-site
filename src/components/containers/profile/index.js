@@ -25,7 +25,7 @@ const Profile = () => {
       width: ['100%', '100%', '30%']
     }}>
       <Avatar img={avatarImg} />
-      <h1>
+      <h1 sx={{variant: 'text.heading'}} >
         <strong>I'm Pablo Albaladejo</strong>, a software engineer expert in challenges
       </h1>
       <Social />
