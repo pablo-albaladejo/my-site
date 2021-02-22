@@ -5,6 +5,7 @@ import { jsx } from "theme-ui"
 
 import avatarImg from '../../../images/avatar.jpeg'
 import backgroundImg from '../../../images/background.jpg'
+import overlayImg from '../../../images/overlay.png'
 import Avatar from "../../commons/avatar"
 import Social from "../social"
 
@@ -15,14 +16,14 @@ const Profile = () => {
       backgroundPosition: '0 0, 50%',
       backgroundSize: 'auto, cover',
       backgroundColor: "primary",
-      backgroundImage: `url(${backgroundImg})`,
+      backgroundImage: `url(${overlayImg}), url(${backgroundImg})`,
       left: 'auto',
       padding: ' 6em 4em',
       position: 'relative',
-      textAlign: 'center',
+      textAlign: ['center', 'center', 'right'],
       top: 'auto',
       display: 'block',
-      width: ['100%', '100%', '30%']
+      width: ['100%', '100%', '35%']
     }}>
       <Avatar img={avatarImg} />
       <h1 sx={{variant: 'text.heading'}} >

@@ -1,10 +1,12 @@
 import * as React from "react"
 
-const SocialLink = ({icon, caption, url}) => {
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+
+const SocialLink = ({ icon, url }) => {
   return (
     <div>
-      {icon}
-      <a href={url}>{caption}</a>
+      <a href={url} sx={{color: 'secondary', padding: '0 1em 0 0', fontSize: '1.5em' }}>{icon}</a>
     </div>
   )
 }
