@@ -1,7 +1,7 @@
 export default {
   breakpoints: ['40em', '52em', '64em'],
   colors: {
-    text: "#333",
+    text: "#787878",
     background: "#fff",
     primary: "#639",
     secondary: 'hsla(0,0%,100%,.4)'
@@ -27,7 +27,6 @@ export default {
       fontSize: '16px',
       h1: {
         fontSize: 5,
-        color: 'secondary'
       },
       strong: {
         color: '#fff',
