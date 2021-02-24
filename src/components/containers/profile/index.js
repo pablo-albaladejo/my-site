@@ -15,7 +15,6 @@ const Profile = () => {
       backgroundAttachment: 'scroll',
       backgroundPosition: '0 0, 50%',
       backgroundSize: 'auto, cover',
-      backgroundColor: "primary",
       backgroundImage: `url(${overlayImg}), url(${backgroundImg})`,
       left: 'auto',
       padding: ' 6em 4em',
